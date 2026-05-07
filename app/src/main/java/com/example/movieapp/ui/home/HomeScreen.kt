@@ -53,6 +53,7 @@ import com.example.movieapp.ui.components.ErrorScreen
 import com.example.movieapp.ui.components.LoadingScreen
 import com.example.movieapp.ui.components.MoviePosterCard
 import androidx.compose.material3.CenterAlignedTopAppBar
+import androidx.compose.ui.platform.LocalConfiguration
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -64,6 +65,8 @@ fun HomeScreen(
     val uiState by viewModel.uiState.collectAsState()
     val isDark = isSystemInDarkTheme()
     val snackbarHostState = remember { SnackbarHostState() }
+    val screenWidth = LocalConfiguration.current.screenWidthDp.dp
+    val cardWidth = (screenWidth - 48.dp)
 
     LaunchedEffect(uiState.error) {
         uiState.error?.let { error ->
@@ -163,7 +166,7 @@ fun HomeScreen(
                         )
                         LazyRow(
                             contentPadding = PaddingValues(horizontal = 16.dp),
-                            horizontalArrangement = Arrangement.spacedBy(10.dp)
+                            horizontalArrangement = Arrangement.spacedBy(8.dp)
                         ) {
                             items(uiState.nowPlayingMovies) { movie ->
                                 MoviePosterCard(movie = movie, onClick = { onMovieClick(movie.id) })
@@ -179,7 +182,7 @@ fun HomeScreen(
                         )
                         LazyRow(
                             contentPadding = PaddingValues(horizontal = 16.dp),
-                            horizontalArrangement = Arrangement.spacedBy(10.dp)
+                            horizontalArrangement = Arrangement.spacedBy(8.dp)
                         ) {
                             items(uiState.popularMovies) { movie ->
                                 MoviePosterCard(movie = movie, onClick = { onMovieClick(movie.id) })
@@ -195,7 +198,7 @@ fun HomeScreen(
                         )
                         LazyRow(
                             contentPadding = PaddingValues(horizontal = 16.dp),
-                            horizontalArrangement = Arrangement.spacedBy(10.dp)
+                            horizontalArrangement = Arrangement.spacedBy(8.dp)
                         ) {
                             items(uiState.topRatedMovies) { movie ->
                                 MoviePosterCard(movie = movie, onClick = { onMovieClick(movie.id) })
@@ -211,7 +214,7 @@ fun HomeScreen(
                         )
                         LazyRow(
                             contentPadding = PaddingValues(horizontal = 16.dp),
-                            horizontalArrangement = Arrangement.spacedBy(10.dp)
+                            horizontalArrangement = Arrangement.spacedBy(8.dp)
                         ) {
                             items(uiState.upcomingMovies) { movie ->
                                 MoviePosterCard(movie = movie, onClick = { onMovieClick(movie.id) })
