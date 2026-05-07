@@ -1,3 +1,26 @@
 <resources>
-    <string name="app_name">Movie App</string>
+    <string name="app_name">MovieDiscover</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_search">Search</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="popular">Popular</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="movie_detail">Movie Detail</string>
+    <string name="overview">Overview</string>
+    <string name="genres">Genres</string>
+    <string name="runtime_format">%1$dh %2$dm</string>
+    <string name="vote_count">%1$d votes</string>
+    <string name="show_all">Show All</string>
+    <string name="search">Search</string>
+    <string name="search_placeholder">Search for a movie&#8230;</string>
+    <string name="search_hint">Type at least 2 characters to search</string>
+    <string name="no_results">No results found for &#34;%1$s&#34;</string>
+    <string name="error_title">Something went wrong</string>
+    <string name="retry">Retry</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="section_popular">Popular</string>
+    <string name="section_now_playing">Now Playing</string>
+    <string name="section_top_rated">Top Rated</string>
+    <string name="section_upcoming">Upcoming</string>
 </resources>

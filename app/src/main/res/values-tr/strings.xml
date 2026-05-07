@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MovieDiscover</string>
+    <string name="nav_home">Ana Sayfa</string>
+    <string name="nav_search">Arama</string>
+    <string name="now_playing">Vizyondakiler</string>
+    <string name="popular">Popüler</string>
+    <string name="top_rated">En Yüksek Puanlılar</string>
+    <string name="upcoming">Çok Yakında</string>
+    <string name="movie_detail">Film Detayı</string>
+    <string name="overview">Özet</string>
+    <string name="genres">Türler</string>
+    <string name="runtime_format">%1$d sa %2$d dk</string>
+    <string name="vote_count">%1$d oy</string>
+    <string name="search">Arama</string>
+    <string name="show_all">Tümünü Göster</string>
+    <string name="search_placeholder">Film ara&#8230;</string>
+    <string name="search_hint">Arama için en az iki karakter girin</string>
+    <string name="no_results">&#34;%1$s&#34; için sonuç bulunamadı</string>
+    <string name="error_title">Bir şeyler yanlış gitti</string>
+    <string name="retry">Tekrar Dene</string>
+    <string name="loading">Yükleniyor&#8230;</string>
+    <string name="section_popular">Popüler</string>
+    <string name="section_now_playing">Vizyondakiler</string>
+    <string name="section_top_rated">En Çok Beğenilenler</string>
+    <string name="section_upcoming">Yakında</string>
+</resources>

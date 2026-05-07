@@ -2,10 +2,18 @@ package com.example.movieapp.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-val Purple80 = Color(0xFFD0BCFF)
-val PurpleGrey80 = Color(0xFFCCC2DC)
-val Pink80 = Color(0xFFEFB8C8)
+// Blue
+val Blue500     = Color(0xFF2196F3)
+val Blue300     = Color(0xFF64B5F6)
 
-val Purple40 = Color(0xFF6650a4)
-val PurpleGrey40 = Color(0xFF625b71)
-val Pink40 = Color(0xFF7D5260)
+// Neutral
+val Black       = Color(0xFF000000)
+val DarkSurface = Color(0xFF121212)
+val DarkCard    = Color(0xFF1E1E1E)
+val White       = Color(0xFFFFFFFF)
+val LightBg     = Color(0xFFF5F5F5)
+val Blue900 = Color(0xFF0D47A1)
+
+// Other
+val StarColor   = Color(0xFFFFC107)
+val ErrorColor  = Color(0xFFB3261E)
