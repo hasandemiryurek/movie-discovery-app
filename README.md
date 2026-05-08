@@ -4,7 +4,7 @@
 
 # MovieDiscover
 
-**MovieDiscover**, sinema dünyasının kapılarını aralayan modern, hızlı ve kullanıcı dostu bir Android film keşif uygulamasıdır. TMDB API altyapısını kullanarak en güncel filmleri listeler ve detaylı analizler sunar.
+**MovieDiscover** modern, hızlı ve kullanıcı dostu bir Android film keşif uygulamasıdır. TMDB API altyapısını kullanarak en güncel filmleri listeler ve detaylı analizler sunar.
 
 ## Uygulama Görselleri
 | Ana Sayfa | Arama | Film Detay |
@@ -19,7 +19,7 @@
 
 ## Teknik Mimari ve Tasarım Kararları
 
-Uygulama, sürdürülebilirlik ve test edilebilirlik prensipleri doğrultusunda **Clean Architecture** prensiplerine uygun olarak **MVVM (Model-View-ViewModel)** mimarisiyle geliştirilmiştir.
+Uygulama, sürdürülebilirlik ve test edilebilirlik prensipleri doğrultusunda **Clean Architecture** prensiplerine uygun olarak **MVVM (Model-View-ViewModel)** mimarisiyle geliştirilmiştir. Açık ve koyu olarak modları mevcuttur.
 
 ### Kullanılan Teknolojiler
 * **Jetpack Compose:** Deklaratif bir UI yapısı kullanılarak modern bir arayüz geliştirildi.
