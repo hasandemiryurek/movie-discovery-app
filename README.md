@@ -19,7 +19,7 @@
 
 ## Teknik Mimari ve Tasarım Kararları
 
-Uygulama, sürdürülebilirlik ve test edilebilirlik prensipleri doğrultusunda **Clean Architecture** prensiplerine uygun olarak **MVVM (Model-View-ViewModel)** mimarisiyle geliştirilmiştir. Açık ve koyu olarak modları mevcuttur.
+Uygulama, sürdürülebilirlik ve test edilebilirlik prensipleri doğrultusunda **Clean Architecture** prensiplerine uygun olarak **MVVM (Model-View-ViewModel)** mimarisiyle geliştirilmiştir. Açık ve koyu olarak modları mevcuttur. Paging 3 mimarisiyle sonsuz kaydırma özelliği eklenmiştir.
 
 ### Kullanılan Teknolojiler
 * **Jetpack Compose:** Deklaratif bir UI yapısı kullanılarak modern bir arayüz geliştirildi.
